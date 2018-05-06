@@ -1,0 +1,43 @@
+{
+  "name": "starter",
+  "version": "0.1.1",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "description": "Starter kit",
+  "browserslist": [
+    ">0.25%",
+    "not op_mini all"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "yarn && gulp && gulp watch",
+    "build": "NODE_ENV=production gulp",
+    "deploy": "yarn build && gulp deploy"
+  },
+  "dependencies": {
+    "babel-loader": "7.1.4",
+    "basey": "ssh://git@bitbucket.org/zslabs/basey.git#0.31.6",
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-load-plugins": "1.5.0",
+    "lodash.merge": "4.6.1",
+    "merge-stream": "1.0.1",
+    "metalsmith": "2.3.0",
+    "metalsmith-collections": "0.9.0",
+    "metalsmith-date-formatter": "1.0.2",
+    "metalsmith-excerpts": "1.2.0",
+    "metalsmith-feed": "1.0.0",
+    "metalsmith-filemetadata": "1.0.0",
+    "metalsmith-html-minifier": "3.0.0",
+    "metalsmith-ignore": "0.1.2",
+    "metalsmith-in-place": "1.4.4",
+    "metalsmith-layouts": "1.8.1",
+    "metalsmith-markdown": "0.2.2",
+    "metalsmith-move-up": "1.0.0",
+    "metalsmith-permalinks": "0.5.0",
+    "metalsmith-rootpath": "1.0.4",
+    "metalsmith-slug": "0.2.1",
+    "nunjucks": "3.1.2"
+  }
+}

@@ -1,0 +1,23 @@
+//
+// Framework core
+//
+@import '../../../node_modules/basey/src/assets/scss/core';
+
+//
+// Project overrides
+//
+@import 'framework/config';
+@import 'framework/variables';
+@import 'framework/base';
+@import 'framework/icons';
+@import 'framework/text';
+
+//
+// Framework
+//
+@import '../../../node_modules/basey/src/assets/scss/framework';
+
+//
+// Project
+//
+@import 'global';

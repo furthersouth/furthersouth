@@ -1,0 +1,5 @@
+@mixin hook-utility-text() {
+  &MediumWeight {
+    font-weight: $global-font-weight-medium !important;
+  }
+}

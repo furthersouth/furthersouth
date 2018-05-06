@@ -1,0 +1,38 @@
+.main-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: $global-whitespace-large 0;
+}
+
+.logo {
+  width: 280px;
+  margin-bottom: $global-whitespace-large;
+  fill: $global-font-color;
+}
+
+.product-link {
+  @include trimChildren();
+
+  box-shadow: $global-small-media-shadow;
+  background: $global-contrast;
+  display: inline-block;
+  padding: $global-whitespace-large;
+  vertical-align: top;
+  border: 1px solid $global-border;
+  border-radius: $global-border-radius;
+  color: $global-font-color;
+  transition: transform 0.25s easeOutBack;
+  transform-origin: center center;
+  backface-visibility: hidden;
+
+  svg {
+    width: 200px;
+    fill: $global-font-color;
+  }
+
+  &:hover,
+  &:focus {
+    color: $global-font-color;
+    transform: scale(1.05);
+  }
+}
